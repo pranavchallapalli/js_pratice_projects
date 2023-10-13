@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: cadetblue;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+.displayin{
+    width:400px;
+    height:400px ;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.displayin label{
+    font-size: 1.5rem;
+}
+.displayin #guess{
+ width: 350px;
+ height:40px;
+}
+.displayin p{
+    font-size: 1.6rem;
+    font-style: italic;
+}
+.displayin button{
+    width:60px;
+    height: 40px;
+}
